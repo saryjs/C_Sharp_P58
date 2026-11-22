@@ -68,6 +68,14 @@ namespace C_Sharp_P58.Intro
                 }
                 Console.WriteLine();
             }
+
+            Random rnd1 = new Random(); // base syntax
+            Random rnd2 = new(); // new syntax [Random rnd = new Random()]
+            var rnd3 = new Random(); // автоматичне визначення типу (var)
+
+            Console.WriteLine(rnd1.Next(0,100));
+            Console.WriteLine(rnd2.Next(0,100));
+            Console.WriteLine(rnd3.Next(0,100));
         }
 
         
