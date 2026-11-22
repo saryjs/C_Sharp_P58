@@ -39,6 +39,27 @@ namespace C_Sharp_P58.Intro        // namespace може вкладатись (�
             // Reference Types реалізуються класами (class)
             // для цих типів потрібне створення об'єкту (частіше за все оператором new)
             // Без об'єкта змінні цих типів мають значення null
+
+            double d = Convert.ToDouble(x);
+            string str = "Привіт";
+            byte b = 10;
+            short s = 1;
+            long l;
+            char c = 'a';
+
+            Console.Write("Ім'я: ");
+            String line = Console.ReadLine()!;
+            Console.WriteLine(str + ", " + line);
+
+            Console.Write("Вік: ");
+            line = Console.ReadLine()!;
+            b = Convert.ToByte(line);
+
+            Console.WriteLine("Ваш вік: " + line);
+            if (b <= 10)  Console.WriteLine("Age group: child");
+            else if (b <= 19) Console.WriteLine("Age group: teenager");
+            else Console.WriteLine("Age group: adult");
+
         }
     }
 }
