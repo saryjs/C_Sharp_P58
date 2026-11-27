@@ -13,7 +13,8 @@ namespace C_Sharp_P58         // Простори імен групують кл
             //new Intro.VarsTypes().Run(); // Видаляти об'єкти немає потреби
             // за це відповідає окремий модуль платформи - QC Garbage Collector
             //new Intro.Arrays().Run();
-            new Intro.Strings().Run();
+            //new Intro.Strings().Run();
+            new HW28_11.Hw1().Run();
 
         }
     }
